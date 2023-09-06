@@ -24,6 +24,7 @@ img {
 
 /* Style rules for mobile viewport */
 
+
 /* Hide tab-desk class */
 .tab-desk {
     display: none;
@@ -133,6 +134,10 @@ figcaption {
     text-align: center;
 }
 
+#rental h2 {
+    
+}
+
 .tel-link {
     background-color: #373684;
     padding: 2%;
@@ -159,6 +164,39 @@ figcaption {
     border: 5px solid #373684;
     width: 95%;
     height: 50%;
+}
+
+/* Styles rules for table */
+table {
+    border: 1px solid #373684;
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 100%;
+}
+
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 1%;
+}
+
+th, td {
+    border: 1px solid #373684;
+    padding: 2%;
+}
+th {
+    border: 1px soild #373684;
+    padding: 2%
+}
+
+th {
+    background-color: #373684;
+    color: #fff;
+    font-size: 1.15em;
+}
+
+tr:nth-child(odd) {
+    background-color: #b7b7e1;
 }
 
 /* Style rules for footer content */
@@ -269,7 +307,13 @@ footer a {
         grid-column: 1 / span 4;
     }
     
+    /* Desktop Viewpoint Style rules for table */
+    table selector {
+        width: 70%;
+    }
+    
 }
+
 
 /* Media Query for Print */
 @media print {
